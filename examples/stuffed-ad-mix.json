@@ -1,0 +1,23 @@
+{
+  "bpm": 145,
+  "beats": 105,
+  "music": "audio/music48.wav",
+  "first_downbeat": 0.8038,
+  "parts": [["start", 12, 4], [108, 168, 16], [200, "end", 76]],
+  "crossfade": 0.012,
+  "events": "out/events.json",
+  "event_key": "wid",
+  "event_sound": { "carbine": "carbine", "ar": "carbine", "lmg": "carbine", "dmr": "dmr", "shotgun": "shotgun", "auto_shotgun": "shotgun",
+                   "smg": "smg", "pdw": "smg", "pistol": "smg", "sniper": "sniper", "heavy_sniper": "sniper" },
+  "samples": { "carbine": "audio/carbine.wav", "dmr": "audio/dmr.wav", "shotgun": "audio/shotgun.wav", "smg": "audio/smg.wav",
+               "sniper": "audio/sniper.wav", "shotgun_pump": "audio/shotgun_pump.wav" },
+  "auto": ["lmg", "smg", "pdw", "auto_shotgun", "carbine", "ar"],
+  "sfx_gain": 0.42,
+  "near": 3.2,
+  "lowpass": 3200,
+  "cues": [{ "sample": "shotgun_pump", "beat": 4, "align": "peak", "gain": 0.55, "rate": 0.92 }],
+  "booms": [{ "at": 18.226897, "f0": 62, "f1": 34, "dur": 1.6, "gain": 0.55 }, { "beat": 96, "f0": 58, "f1": 30, "dur": 3.4, "gain": 0.6 }],
+  "ceiling_db": -1,
+  "fade_out": 0.4,
+  "out": "out/soundtrack-skilltest.wav"
+}
